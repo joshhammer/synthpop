@@ -1,3 +1,7 @@
+#spotify {
+position: relative;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +34,7 @@
 
 a {
     text-decoration: none;
+    color: rgb(255, 0, 140);
 }
 
 .visit {
@@ -154,14 +159,14 @@ td {
 /* MEDIA SECTION */
 
 #mediagallery {
-    margin-top: 0;
+    margin-top: 8rem;
     width: 412px;
     height: 100%;
 }
 
 #mediagallery img {
     display: block;
-    margin: 10px auto;
+    margin: 40px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
 }
